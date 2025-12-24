@@ -75,10 +75,12 @@ body {
 .container2 {
   width: 100vh;
   height: auto;
-  border: 1px solid black;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--bg-primary);
+  font-size: 2em;
+  color: var(--txt-secondary);
 }
 
 @media screen and (max-width: 476px) {
