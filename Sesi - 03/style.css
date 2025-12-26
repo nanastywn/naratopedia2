@@ -5,6 +5,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Helvetica", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -16,14 +17,24 @@ body {
   align-items: center;
   padding: 0 20px;
 }
+
 .logo {
   margin-right: auto;
-  margin-left: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+}
+
+.logo-title {
   cursor: pointer;
   transition: all 0.2s ease 0s;
 }
 
-.logo:hover {
+.logo-title:hover {
   color: #838383;
   transform: rotate(2deg);
 }
@@ -133,21 +144,57 @@ a {
 
 .mt-10 {
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* height: 70vh; */
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .card-items {
+  text-align: center;
+  /* margin: 10px; */
   width: 25%;
   background: #000080;
   color: #eaeaea;
   padding: 20px;
+  box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.card-description {
+  font-size: 17px;
+  margin-top: 4px;
+}
+
+.icons {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 4px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #000080;
+  color: #eaeaea;
 }
 
 @media screen and (max-width: 500px) {
@@ -161,7 +208,21 @@ a {
     width: 100%;
     padding: 0;
   }
+  .intro {
+    margin-top: 20px;
+  }
   .img-foto {
     padding: 0;
+  }
+  nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #000080;
+    z-index: 9;
+  }
+
+  footer {
+    margin-bottom: 70px;
   }
 }

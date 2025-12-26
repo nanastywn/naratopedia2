@@ -9,51 +9,64 @@
   <body>
     <div>
       <header class="header">
-        <h1 class="logo">logo</h1>
+        <div class="logo">
+          <img src="assets/icons/partner.png" alt="logo" class="logo-img" />
+          <h1 class="logo-title">Naratopedia</h1>
+        </div>
         <nav>
           <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="#HOME">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li>
+              <a href="mailto:awandilangityangbiru666@gmail.com">CONTACT</a>
+            </li>
           </ul>
         </nav>
-        <button class="btn-cta">FOLLOW ME</button>
+        <button class="btn-cta" onclick="redirInstagram()">FOLLOW ME</button>
       </header>
     </div>
     <div class="container">
       <div class="intro">
         <p class="title">hello world!</p>
         <p class="description">this is a simple webpage layout.</p>
-        <img src="assets/photo/foto-b.jpg" class="img-1" alt="foto-c" />
+        <img src="assets/photo/foto-c.jpg" class="img-1" alt="foto-c" />
       </div>
     </div>
     <div class="parallax">
       <div class="tentang">
-        <p class="title">lorem ipsum lorem ipsum lorem ipsum</p>
+        <p class="title">My masterpiece. Mind-blowing banget prosesnya</p>
         <p class="description">
-          lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum
+          lorem ipsum lorem ipsum lorem ipsumlorem ipsum
         </p>
         <div class="mt-10">
-          <button class="btn-cta">CLICK ME</button>
+          <button class="btn-cta" onclick="redirGithub()">
+            Chat me if you're interested!
+          </button>
         </div>
       </div>
-      <div class="container">
+      <div class="container-2">
         <div class="card">
           <div class="card-items">
+            <img src="assets/icons/24-hours.png" alt="icon-1" class="icons" />
+            <p class="card-title">CONTACT</p>
+            <p class="card-description">this is description!</p>
+          </div>
+          <div class="card-items" id="HOME">
+            <img src="assets/icons/partner.png" alt="icon-1" class="icons" />
             <p class="card-title">Hello world!</p>
             <p class="card-description">this is description!</p>
           </div>
           <div class="card-items">
-            <p class="card-title">Hello world!</p>
-            <p class="card-description">this is description!</p>
-          </div>
-          <div class="card-items">
+            <img src="assets/icons/rating.png" alt="icon-1" class="icons" />
             <p class="card-title">Hello world!</p>
             <p class="card-description">this is description!</p>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <p class="title">© Naratopedia 2025</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
