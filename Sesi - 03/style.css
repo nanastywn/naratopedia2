@@ -41,7 +41,8 @@ body {
 
 nav ul {
   display: flex;
-  padding: 20px;
+  flex-wrap: wrap;
+  padding: 15px;
 }
 
 li {
@@ -65,11 +66,11 @@ a {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 19px 0;
   display: flex;
-  flex-wrap: wrap;
+  height: 100vh;
 }
 
 .intro {
@@ -77,8 +78,15 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  text-align: center;
+  text-align: center; */
 }
 
 .title {
@@ -91,10 +99,9 @@ a {
   font-weight: bolder;
 }
 
-.img-foto {
-  width: 100px;
+.img-1 {
+  width: 500px;
   height: auto;
-  padding: 10px;
 }
 
 .parallax {
@@ -113,7 +120,7 @@ a {
   flex-direction: column;
   background: #000080;
   color: #eaeaea;
-  padding: 20px;
+  padding: 15px;
 }
 
 .mt-10 {
@@ -121,18 +128,24 @@ a {
 }
 
 .card {
-  display: flex;
-  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  gap: 8px;
+
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 8px; */
 }
 
 .card-items {
-  width: 25%;
+  height: 100%;
+  width: 0 auto;
   background: #000080;
   color: #eaeaea;
   padding: 24px;
+  display: flex;
 }
 
 @media screen and(max-width: 500px) {
@@ -146,7 +159,7 @@ a {
     width: 100%;
     padding: 0;
   }
-  /* .img-foto {
+  .img-foto {
     padding: 0;
-  } */
+  }
 }
