@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://count.getloli.com/@:nanastywn/naratopedia2?theme=morden-num&padding=5&scale=1&align=top&pixelated=1&darkmode=auto"  />
+  <img src="https://count.getloli.com/@:nanastywn?theme=morden-num&padding=5&scale=1&align=top&pixelated=1&darkmode=auto"  />
 </div>
 
 ###
@@ -25,8 +25,8 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nanastywn/naratopedia2&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" /> <br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nanastywn/naratopedia2&theme=redical" height="150" alt="activity-graph graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nanastywn&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" /> <br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nanastywn&theme=redical" height="150" alt="activity-graph graph"  />
 </div>
 
 ###
