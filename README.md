@@ -2,9 +2,9 @@
   <img src="https://count.getloli.com/@:nanastywn?theme=morden-num&padding=5&scale=1&align=top&pixelated=1&darkmode=auto"  />
 </div>
 
-### 
+###
 
-<h4 align="left">🛠 Language and tools</h4>
+<h3 align="left">🛠 Language and tools</h3>
 
 ###
 
@@ -20,7 +20,7 @@
 
 ###
 
-<h4 align="left">🔥   My Stats :</h4>
+<h3 align="left">🔥   My Stats :</h3>
 
 ###
 
