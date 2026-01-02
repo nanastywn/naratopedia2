@@ -1,0 +1,88 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 325px;
+  min-height: 100vh;
+}
+
+.content {
+  margin: 6px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button {
+  border: none;
+  background: #c71d11;
+  color: #000000;
+  font-size: 14px;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 60px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: yellow;
+  transition: 0.5 all ease-in-out;
+}
+
+input {
+  border: none;
+  background-color: #eaeaea;
+  color: #000000;
+  padding: 11px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#pertanyaan {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+#loaders {
+  display: none;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  border-radius: 50%;
+  border-top: 15px solid #c71d11;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  animation: 1s spin infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
