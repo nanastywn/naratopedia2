@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/onsenui/css/onsen-css-components.min.css"
+    />
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>CAPTURE QUOTES</title>
+  </head>
+  <body>
+    <ons-page>
+      <ons-toolbar>
+        <div class="center">Naratopedia</div>
+        <div class="right">
+          <ons-toolbar-button>
+            <a download id="screenshot">📷</a>
+          </ons-toolbar-button>
+        </div>
+      </ons-toolbar>
+      <ons-fab position="bottom right" onclick="generateIdea()">
+        <ons-icon icon="md-plus"></ons-icon>
+      </ons-fab>
+      <div id="result">
+        <h2 id="activity"></h2>
+        <p id="type"></p>
+      </div>
+    </ons-page>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
