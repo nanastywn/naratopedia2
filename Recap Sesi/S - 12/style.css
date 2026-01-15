@@ -21,16 +21,16 @@ header {
 
 .searchInput {
   background-color: transparent;
-  padding: 7px 30px;
+  padding: 7px 15px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: white;
-  width: 150px;
+  width: 120px;
 }
 
 #moviesElement {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 16px;
   gap: 20px;
   background-color: #eaeaea;
@@ -61,7 +61,7 @@ header {
   text-align: right;
   font-weight: bold;
   color: ffeb3b;
-  font-size: 1.1rem;
+  font-size: 0.7rem;
 }
 
 .pagination {

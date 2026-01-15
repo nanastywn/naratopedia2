@@ -52,8 +52,8 @@ function showMovies(movies) {
     movieCard.innerHTML = `
     <img src="${API_IMAGE_URL + poster_path}" alt="html the movie images" />
     <div class="detail">
-        <h3 class = "judul" >${title}</h3>
-        <p class = "overview" >${overview.substring(0, 120)}...</p>
+        <h4 class = "judul" >${title}</h4>
+        <p class = "overview" >${overview.substring(0, 100)}...</p>
         <p class="movieRating" >${popularity} ⭐ | ${vote_average} 👍</p>
     </div>`;
     moviesElement.appendChild(movieCard);
