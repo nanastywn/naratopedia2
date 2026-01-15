@@ -8,14 +8,20 @@
   </head>
   <body>
     <header>
-      <h2 class="title">Naratopedia The movie</h2>
-      <form>
-        <input type="text" placeholder="search" class="searchInput" />
+      <h2 id="title">Naratopedia</h2>
+      <form id="searchForm">
+        <input
+          id="search"
+          type="text"
+          placeholder="search"
+          class="searchInput"
+        />
       </form>
     </header>
     <div id="moviesElement"></div>
     <div class="pagination">
       <div id="prev">Prev</div>
+      <div id="currentPage"></div>
       <div id="next">Next</div>
     </div>
     <script src="script.js"></script>
